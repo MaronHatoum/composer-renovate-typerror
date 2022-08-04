@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee20fd00119f41f61e694494dbcf1f1e",
+    "content-hash": "3888ccad9c9a2cc074fa20b15735934c",
     "packages": [
         {
             "name": "activecampaign/api-php",
@@ -1103,16 +1103,16 @@
         },
         {
             "name": "paypal/rest-api-sdk-php",
-            "version": "1.13.0",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
-                "reference": "192e217beed14c8e75624e821fdc8ec51e2a21f5"
+                "reference": "72e2f2466975bf128a31e02b15110180f059fc04"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/192e217beed14c8e75624e821fdc8ec51e2a21f5",
-                "reference": "192e217beed14c8e75624e821fdc8ec51e2a21f5",
+                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/72e2f2466975bf128a31e02b15110180f059fc04",
+                "reference": "72e2f2466975bf128a31e02b15110180f059fc04",
                 "shasum": ""
             },
             "require": {
@@ -1148,7 +1148,12 @@
                 "rest",
                 "sdk"
             ],
-            "time": "2017-11-13T19:21:59+00:00"
+            "support": {
+                "issues": "https://github.com/paypal/PayPal-PHP-SDK/issues",
+                "source": "https://github.com/paypal/PayPal-PHP-SDK/tree/master"
+            },
+            "abandoned": true,
+            "time": "2019-01-04T20:04:25+00:00"
         },
         {
             "name": "php-http/curl-client",
@@ -1646,16 +1651,16 @@
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/d49695b909c3b7628b6289db5479a1c204601f11",
+                "reference": "d49695b909c3b7628b6289db5479a1c204601f11",
                 "shasum": ""
             },
             "require": {
@@ -1664,7 +1669,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -1679,7 +1684,7 @@
             "authors": [
                 {
                     "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
+                    "homepage": "https://www.php-fig.org/"
                 }
             ],
             "description": "Common interface for logging libraries",
@@ -1689,7 +1694,10 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10T12:19:37+00:00"
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/1.1.4"
+            },
+            "time": "2021-05-03T11:20:27+00:00"
         },
         {
             "name": "stil/gd-text",
@@ -1990,5 +1998,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
