@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ee20fd00119f41f61e694494dbcf1f1e",
+    "content-hash": "ab3179e03dee22c7ee58a4f4de9d372d",
     "packages": [
         {
             "name": "activecampaign/api-php",
@@ -141,16 +141,16 @@
         },
         {
             "name": "campaignmonitor/createsend-php",
-            "version": "v6.0.0",
+            "version": "v6.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/campaignmonitor/createsend-php.git",
-                "reference": "e343054ee25e4862cd408878c9e555b0a1e047e7"
+                "reference": "922cec7fbc9da1508c18156db7693a6ddad7194e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/campaignmonitor/createsend-php/zipball/e343054ee25e4862cd408878c9e555b0a1e047e7",
-                "reference": "e343054ee25e4862cd408878c9e555b0a1e047e7",
+                "url": "https://api.github.com/repos/campaignmonitor/createsend-php/zipball/922cec7fbc9da1508c18156db7693a6ddad7194e",
+                "reference": "922cec7fbc9da1508c18156db7693a6ddad7194e",
                 "shasum": ""
             },
             "require": {
@@ -174,7 +174,9 @@
                     "csrest_templates.php",
                     "csrest_transactional_classicemail.php",
                     "csrest_transactional_smartemail.php",
-                    "csrest_transactional_timeline.php"
+                    "csrest_transactional_timeline.php",
+                    "csrest_journeys.php",
+                    "csrest_journey_emails.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -195,7 +197,11 @@
                 "campaign",
                 "monitor"
             ],
-            "time": "2018-05-25T05:04:01+00:00"
+            "support": {
+                "issues": "https://github.com/campaignmonitor/createsend-php/issues",
+                "source": "https://github.com/campaignmonitor/createsend-php/tree/v6.1.2"
+            },
+            "time": "2021-10-02T04:57:43+00:00"
         },
         {
             "name": "clue/stream-filter",
@@ -1990,5 +1996,6 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
