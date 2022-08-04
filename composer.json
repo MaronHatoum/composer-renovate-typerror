@@ -13,7 +13,6 @@
         "enormail/enormail-php-api": "dev-master",
 	    	"mailerlite/mailerlite-api-v2-php-sdk": "^0.2.1",
 		"paypal/rest-api-sdk-php": "^1.12",
-		"activecampaign/api-php": "^2.0",
 		"defuse/php-encryption": "^2.1"
     }
 }
